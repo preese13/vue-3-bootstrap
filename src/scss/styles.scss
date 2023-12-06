@@ -1,0 +1,27 @@
+
+p {
+    font-size: 17px;
+    text-decoration: underline;
+  }
+  #devices-required {
+    padding-top: 15px;
+  }
+  .fade-enter-active {
+    transition: opacity 0.8s;
+  }
+  .fade-leave-active {
+    opacity: 1;
+  }
+  strong {
+    color: #212529;
+  }
+  p {
+    font-size: 17px;
+    text-decoration: underline;
+  }
+  @media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    .text-muted {
+      font-size: 13px;
+    }
+  }
